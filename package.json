@@ -1,0 +1,16 @@
+{
+  "name": "intelligent-public-transport-optimization-system",
+  "version": "1.0.0",
+  "description": "Intelligent Public Transport Optimization System (MERN Stack, Levels 0-13)",
+  "scripts": {
+    "start": "node backend/src/server.js",
+    "server": "cd backend && npm start",
+    "client": "cd frontend && npm run dev",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "cd frontend && npm run build"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
